@@ -1,0 +1,22 @@
+{
+  "name": "hyseh-api-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "author": "John Hofland <john.hofland@outlook.com> (http://hyseh.dev/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss ./src/css/main.css -o ./dist/css/main.css",
+    "start": "postcss ./src/css/main.css -o ./dist/css/main.css -w & live-server"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "live-server": "^1.2.2",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1"
+  }
+}
